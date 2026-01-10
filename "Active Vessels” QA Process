@@ -57,4 +57,7 @@ III. Defect Management & Reporting
 
 Case Study: Logic Inconsistency
 - Issue: Vessels flagged as "In Service" but missing voyage history in Daily Voyage.
-- Technical Audit: A LEFT JOIN was performed between the vessels table (filtered for vessel_status = 'In Service') and the Daily Voyage table to isolate active vessels with null voyage records
+- Technical Audit: A LEFT JOIN was performed between the vessels table (filtered for vessel_status = 'In Service') and the Daily Voyage table to isolate active vessels with null voyage records.
+
+IV. Conclusion
+The whole process is based on the principle: 'Verify early, Verify often'. Detecting logic errors right from the Integration Test step helps RightShip save the cost of repairing data on Production and maintain its reputation for safety in the maritime industry.
